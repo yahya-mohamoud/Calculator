@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    margin: 50px 20px;
+}
+
+.container{
+    background-color: rgb(0, 0, 0);
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: 3px solid #3e2c3d;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.display{
+    background-color: #eeeeee;
+    color: #000;
+    text-align: right;
+    padding: 10px;
+    font-size: 2.5em;
+    margin: 6px;
+    font-weight: 800;
+}
+
+.btns {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+button{
+    flex: 1 1 25%; /* Adjust the size to fit 4 buttons per row */
+    padding: 20px;
+    font-size: 1.5em;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    background-color: #e0e0e0;
+    margin: 0;
+    gap: 6px;
+    font-size: 2em;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+button:hover{
+    background-color: #2a2929;
+}
+
+#zero{
+    flex: 1 1 50%;
+}
+
+.number{
+    background-color: #201e43;
+    color: white;
+    border: 1px solid rgb(70, 70, 85);
+}
+
+.operator{
+    background-color: #134B70;
+    color: white;
+}
+
+.percentage, .plus-minus, .clear{
+    background-color: #508c9b;
+    color: white;
+}
