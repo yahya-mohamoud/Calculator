@@ -11,7 +11,6 @@ buttons.forEach(button => {
         const value = button.value;
         if (value === "clear") {
             resetCalculator();
-            console.log(resetCalculator());
         }else if (value === "plus-minus"){
             display.textContent = String(-parseFloat(display.textContent));
         }else if (value === "%"){

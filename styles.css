@@ -8,7 +8,7 @@ body{
     display: flex;
     justify-content: center;
     margin: 50px 20px;
-    background: linear-gradient(180deg, rgb(58, 207, 207), rgb(58, 162, 162), rgb(8, 66, 66));
+    /* background-color: ; */
 }
 
 .container{
